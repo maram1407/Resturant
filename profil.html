@@ -1,0 +1,82 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <title>Профиль</title>
+    
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+   
+</head>
+</head>
+<body>
+
+   
+            <img src="ar.png" style=" width: 150px;  float: left;">
+       <div>
+        <p style="padding: 5px;
+        text-align: center;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        color:#9b270a;">Регистрация</p>
+   </div>
+    <FORM>
+
+        <FORM>
+
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                    </div>
+                    <input type="text" class="form-control" placeholder="Логин" name="Username" value=''>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend"></div>
+                    <input type="text" class="form-control" placeholder="Телефон"   name="Phone" maxlength="10"  value="">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend"></div>
+                    <input type="text" class="form-control" placeholder="Почта"  name="Email"   value="">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend"></div>
+                    <input type="password" placeholder="Password" class="form-control"  name="Password" maxlength="10"  value="">
+                </div>
+            </div>  
+            <div class="col-8 ">
+                <button  type="submit" style="  width: 232px;
+                height: 36px;
+                color: #ebf5ee;
+                background: rgba(160, 7, 7, 0.85);
+                border: 1px solid rgba(3, 15, 3, 0.85);
+                box-sizing: border-box;
+                border-radius: 4px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;">
+                    Зарегистрироваться
+                </button>
+            </div>
+            <div class=" py-3">
+                <div class="alert" role="alert">
+                    <h3> <strong> Уже есть аккаунт?<a href="#" class="badge badge" onclick="return showError() ">Авторизируйтесь</a> </strong></h3>
+                </div>
+            </div>
+        </FORM>
+           
+    <SCRIPT src="scripts.js"></script>
+</BODY>
+</HTML>
